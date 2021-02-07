@@ -1,6 +1,7 @@
 import React from 'react'
 import Test from '../../common/Test';
 import HeroSection from './HeroSection'
+import './HeroSection.css'
 
 
  const Home = () => {
@@ -10,7 +11,6 @@ import HeroSection from './HeroSection'
            {/* <h3>Home</h3> */}
            {/* <Test /> */}
            <HeroSection />
-
         </header>
     )
 }
