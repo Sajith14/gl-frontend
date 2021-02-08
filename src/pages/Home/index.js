@@ -2,6 +2,7 @@ import React from 'react'
 import Test from '../../common/Test';
 import HeroSection from './HeroSection'
 import './HeroSection.css'
+import Cards from './Cards'
 
 
  const Home = () => {
@@ -11,6 +12,7 @@ import './HeroSection.css'
            {/* <h3>Home</h3> */}
            {/* <Test /> */}
            <HeroSection />
+           <Cards />
         </header>
     )
 }
