@@ -9,7 +9,7 @@ export default class Checkout extends Component {
                 <div>
                     <h4>Card Details</h4>
                     <Elements>
-                        <CheckoutForm />
+                        {/* <CheckoutForm /> */}
                     </Elements>
                 </div>
             </StripeProvider>

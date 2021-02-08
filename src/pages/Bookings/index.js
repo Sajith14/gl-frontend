@@ -154,7 +154,7 @@ const Bookings = (props) => {
                                     <Col md={{ span: 2, offset: 10 }}>
                                         <Popup trigger={<Button variant="dark">PAY NOW?</Button>}
                                             modal {...{ contentStyle, overlayStyle }}>
-                                            <Checkout />
+                                            {/* <Checkout /> */}
                                         </Popup>
                                     </Col>
                                 </Row>
